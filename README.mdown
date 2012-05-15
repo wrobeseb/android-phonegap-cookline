@@ -156,16 +156,16 @@ Follow the [CookLine app](https://github.com/fbsamples/CookLine) install instruc
 1. Edit the CookLine web files - beef_curry.html, lasagne.html, pizza.html:
    1. Change occurrences of ''294113397324835'' to ''YOUR_APP_ID''
    1. Change occurrences of ''cookline.herokuapp.com'' to your domain
-   1. Change occurrences of ''cookline:'' to ''YOUR_APP_NAMESPACE''
+   1. Change occurrences of ''cookline:'' to ''YOUR_APP_NAMESPACE:''
 
 1. Install Cordova libraries, scripts:
-   1. Copy <CORDOVA-INSTALL>/lib/android/cordova-1.7.0.jar to the WebCordova project _libs_ folder
-   1. Copy <CORDOVA-INSTALL>/lib/android/cordova-1.7.0.js to the WebCordova project _assets/www_ folder
-   1. Copy <CORDOVA-INSTALL>/lib/android/xml to the WebCordova project res folder
+   1. Copy &lt;CORDOVA-INSTALL>/lib/android/cordova-1.7.0.jar to the WebCordova project _libs_ folder
+   1. Copy &lt;CORDOVA-INSTALL>/lib/android/cordova-1.7.0.js to the WebCordova project _assets/www_ folder
+   1. Copy &lt;CORDOVA-INSTALL>/lib/android/xml to the WebCordova project res folder
 
 1. Install Apache Cordova Facebook Connect Plugin libraries, scripts:
-   1. Copy <PLUGIN-INSTALL>/www/cdv-plugin-fb-connect.js to the WebCordova project _assets/www_ folder
-   1. Copy <PLUGIN-INSTALL>/lib/facebook_js_sdk.js to the WebCordova project _assets/www_ folder
-   1. Copy <PLUGIN-INSTALL>/native/android/src/org to the WebCordova project _src_ folder
+   1. Copy &lt;PLUGIN-INSTALL>/www/cdv-plugin-fb-connect.js to the WebCordova project _assets/www_ folder
+   1. Copy &lt;PLUGIN-INSTALL>/lib/facebook_js_sdk.js to the WebCordova project _assets/www_ folder
+   1. Copy &lt;PLUGIN-INSTALL>/native/android/src/org to the WebCordova project _src_ folder
 
 1. Run the application as an Android Application. If you have any issues check out the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/). 
