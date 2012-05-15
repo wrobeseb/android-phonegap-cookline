@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, App!</string>
+    <string name="app_name">FacebookApp</string>
+    <string name="label_welcome">Welcome</string>
+    <string name="label_login">Login to continue</string>
+    <string name="button_login">Login</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_post_feed">Post Feed</string>
+    <string name="button_send_request">Send Request</string>
+    
+
+</resources>
