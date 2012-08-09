@@ -1,32 +1,14 @@
-**License**
-========================
+# CookLine for Android (using PhoneGap)
 
-Copyright 2012 Facebook, Inc.
-
-You are hereby granted a non-exclusive, worldwide, royalty-free license to
-use, copy, modify, and distribute this software in source code or binary
-form for use in connection with the web services and APIs provided by
-Facebook.
-
-As with any software that integrates with the Facebook platform, your use
-of this software is subject to the [Facebook Developer Principles and
-Policies](http://developers.facebook.com/policy/). This copyright notice
-shall be included in all copies or substantial portions of the software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
-
-**Facebook Integration for Android Sample Code**
-========================
+Using PhoneGap for Android, wraps CookLine, a web sample app that allows you to publish back to your Facebook Timeline about what you're eating, using Open Graph.
 
 This sample code is the completed sample Android code that was presented at [AnDevCon III 2012](http://www.andevcon.com/AndevCon_III/index.html).
 
-This README will walk you through the following:
+Authors: Christine Abernathy (caabernathy)
+
+## Installing
+
+This section will walk you through the following:
 
 * Getting Started
 * Native SDK Integration Demo
@@ -36,8 +18,7 @@ This README will walk you through the following:
   * Install the CookLine Web App
   * Installing the Android app
 
-**Getting Started**
-===================
+### Getting Started
 
 Your install package should have the following files:
 
@@ -55,8 +36,7 @@ To get the sample code do the following:
     git clone git://github.com/fbsamples/android-integration-sdk-phonegap
 
 
-**Creating your Facebook app (Native SDK Demo)**
-==============================
+### Creating your Facebook app (Native SDK Demo)
 
 First set up a Facebook app using the Developer app:
 
@@ -71,8 +51,7 @@ First set up a Facebook app using the Developer app:
 
 
 
-**Installing the Android app (Native SDK Demo)**
-==========================
+### Installing the Android app (Native SDK Demo)
 
 1. Get the latest Facebook Android SDK from GitHub: git clone git://github.com/facebook/facebook-android-sdk.git
 
@@ -81,7 +60,7 @@ First set up a Facebook app using the Developer app:
 1. Create a Facebook Android SDK Project:
    1. From the Eclipse menu, navigate to File > New > Android Project
    1. Select "Create project from existing source"
-   1. The Facebook Android SDK package should include a folder, facebook-android-sdk/facebook 
+   1. The Facebook Android SDK package should include a folder, facebook-android-sdk/facebook
    1. Browse to the facebook folder and select it
    1. Click Next
    1. Select Android 2.2 as the Build Target
@@ -115,16 +94,14 @@ First set up a Facebook app using the Developer app:
 
 1. Install the Facebook app. Go to the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/#install) to find more instructions on this.
 
-1. Run the application as an Android Application. If you have any issues check out the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/). 
+1. Run the application as an Android Application. If you have any issues check out the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/).
 
 
-**Install the CookLine Web App**
-==============================
+### Install the CookLine Web App
 
 Follow the [CookLine app](https://github.com/fbsamples/CookLine) install instructions. Note your app's domain, namespace, and app Id. You will use this to configure your app in the next section.
 
-**Installing the Android app (Apache Cordova Demo)**
-==========================
+### Installing the Android app (Apache Cordova Demo)
 
 1. Get the latest Facebook Android SDK from GitHub, if not previously cloned: git clone git://github.com/facebook/facebook-android-sdk.git
 
@@ -168,4 +145,18 @@ Follow the [CookLine app](https://github.com/fbsamples/CookLine) install instruc
    1. Copy &lt;PLUGIN-INSTALL>/lib/facebook_js_sdk.js to the WebCordova project _assets/www_ folder
    1. Copy &lt;PLUGIN-INSTALL>/native/android/src/org to the WebCordova project _src_ folder
 
-1. Run the application as an Android Application. If you have any issues check out the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/). 
+1. Run the application as an Android Application. If you have any issues check out the [Android Tutorial](https://developers.facebook.com/docs/mobile/android/build/).
+
+## Contributing
+
+All contributors must agree to and sign the [Facebook CLA](https://developers.facebook.com/opensource/cla) prior to submitting Pull Requests. We cannot accept Pull Requests until this document is signed and submitted.
+
+## License
+
+Copyright 2012-present Facebook, Inc.
+
+You are hereby granted a non-exclusive, worldwide, royalty-free license to use, copy, modify, and distribute this software in source code or binary form for use in connection with the web services and APIs provided by Facebook.
+
+As with any software that integrates with the Facebook platform, your use of this software is subject to the Facebook Developer Principles and Policies [http://developers.facebook.com/policy/]. This copyright notice shall be included in all copies or substantial portions of the software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
